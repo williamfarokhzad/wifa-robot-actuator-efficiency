@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<title>Actuator energy boundary and sign conventions</title>
+<desc>Positive DC power points from the DC bus into the drive. Positive shaft power points from the gearbox to the load. Negative flows reverse these directions.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5 0 10z" fill="#116953"/></marker></defs>
+<rect width="1200" height="650" rx="28" fill="#eaf2eb"/>
+<g font-family="DejaVu Sans" fill="#132b27">
+<text x="66" y="83" font-size="45" font-weight="bold">Where is the energy measured?</text>
+<text x="67" y="130" font-size="26">One DC input and one mechanical output</text>
+<rect x="357" y="201" width="486" height="293" rx="24" fill="#fff" stroke="#537a71" stroke-width="3" stroke-dasharray="11 9"/>
+<text x="600" y="243" font-size="25" text-anchor="middle">Actuator boundary</text>
+<g font-size="26" text-anchor="middle" font-weight="bold">
+<rect x="68" y="308" width="170" height="85" rx="15" fill="#d4e5f1"/><text x="153" y="359">DC bus</text>
+<rect x="397" y="308" width="405" height="85" rx="15" fill="#d2eadc"/><text x="600" y="359">Drive, motor, gearbox</text>
+<rect x="962" y="308" width="170" height="85" rx="15" fill="#d4e5f1"/><text x="1047" y="359">Load</text>
+</g>
+<g stroke="#116953" stroke-width="5" marker-end="url(#arrow)"><path d="M244 350H387"/><path d="M810 350H953"/></g>
+<g font-size="23" text-anchor="middle"><text x="295" y="302">+V × I</text><text x="900" y="302">+τ × ω</text><text x="600" y="455">Both arrows show positive power.</text></g>
+<text x="66" y="570" font-size="28">Negative DC power means export at the bus,</text><text x="66" y="609" font-size="28">while negative shaft power means the load drives the actuator.</text>
+</g></svg>

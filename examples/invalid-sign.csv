@@ -1,0 +1,2 @@
+duration_s,bus_voltage_V,bus_current_A,torque_Nm,speed_rad_s
+1,24,-0.25,1,10

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690">
+<title>Energy ledger for the simulated pick cycle</title>
+<desc>180 joules are drawn and 36 exported at the DC bus; 100 joules are delivered and 60 absorbed at the shaft. Net flows are 144 and 40 joules respectively.</desc>
+<rect width="1200" height="690" rx="28" fill="#eef2f7"/>
+<g font-family="DejaVu Sans" fill="#192e44">
+<text x="68" y="84" font-size="47" font-weight="bold">The 14 second pick cycle</text>
+<text x="69" y="133" font-size="26">Keep positive and negative energy flows separate.</text>
+<path d="M337 179V532" stroke="#778aa4" stroke-width="3"/>
+<g font-size="25">
+<text x="68" y="228">DC bus draw</text><rect x="340" y="191" width="648" height="50" rx="8" fill="#215981"/><text x="1005" y="225" font-weight="bold">180 J</text>
+<text x="68" y="314">DC bus export</text><rect x="340" y="276" width="129.6" height="50" rx="8" fill="#21705d"/><text x="486" y="309" font-weight="bold">36 J</text>
+<text x="68" y="399">Shaft delivered</text><rect x="340" y="361" width="360" height="50" rx="8" fill="#215981"/><text x="716" y="395" font-weight="bold">100 J</text>
+<text x="68" y="484">Shaft absorbed</text><rect x="340" y="446" width="216" height="50" rx="8" fill="#21705d"/><text x="573" y="480" font-weight="bold">60 J</text>
+</g>
+<text x="68" y="588" font-size="29" font-weight="bold">144 J net DC draw − 40 J net shaft output = 104 J</text>
+<text x="68" y="630" font-size="25">In this model, that difference is energy lost inside the boundary.</text>
+</g></svg>
